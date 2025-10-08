@@ -1,1 +1,6 @@
-console.log("Hello CodeSandbox");
+const app = require("./src/app");
+
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`servidor a correr em ${PORT}`);
+});
